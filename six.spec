@@ -4,7 +4,7 @@ Name:		six
 Version:	0.5.2
 Release:	1
 License:	GPL
-Group:		X11/Applications
+Group:		X11/Applications/Games
 Source0:	http://six.retes.hu/download/%{name}-%{version}.tar.gz
 # Source0-md5:	129da56864fc2ca8c8c949dcc2239604
 Patch0:		%{name}-desktop.patch
