@@ -9,6 +9,7 @@ Source0:	http://six.retes.hu/download/%{name}-%{version}.tar.gz
 # Source0-md5:	129da56864fc2ca8c8c949dcc2239604
 Patch0:		%{name}-desktop.patch
 URL:		http://six.reters.hu/
+BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
