@@ -9,6 +9,7 @@ Source0:	http://six.retes.hu/download/%{name}-%{version}.tar.gz
 # Source0-md5:	129da56864fc2ca8c8c949dcc2239604
 Patch0:		%{name}-desktop.patch
 URL:		http://six.retes.hu/
+BuildRequires:	automake
 BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,6 +26,7 @@ po³±czeniu ze sob± przeciwleg³ych boków.
 %patch0 -p1
 
 %build
+cp -f /usr/share/automake/config.sub admin
 %configure
 %{__make}
 
