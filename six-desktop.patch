@@ -1,0 +1,13 @@
+diff -urN six-0.5.2/six/six.desktop six-0.5.2-desktop/six/six.desktop
+--- six-0.5.2/six/six.desktop	2004-07-19 10:30:54.000000000 +0200
++++ six-0.5.2-desktop/six/six.desktop	2004-09-08 03:02:54.441704416 +0200
+@@ -5,5 +5,9 @@
+ Type=Application
+ DocPath=six/six.html
+ Comment=A Hex playing program
++Comment[pl]=Gra na sześciokątnych polach
+ Terminal=0
+ MimeType=application/vnd.kde.six
++Categories=Game;BoardGame;
++Encoding=UTF-8
++# vi: encoding=utf-8
