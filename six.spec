@@ -8,12 +8,13 @@ Group:		X11/Applications
 Source0:	http://six.retes.hu/download/%{name}-%{version}.tar.gz
 # Source0-md5:	129da56864fc2ca8c8c949dcc2239604
 Patch0:		%{name}-desktop.patch
-URL:		http://six.reters.hu/
+URL:		http://six.retes.hu/
 BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Interesting HexBoard game
+Six is a Hex playing program for KDE. Hex is a connectivity game with
+simple rules and deep strategic complexity.
 
 %description -l pl
 Gra tocz±ca siê na planszy o sze¶ciok±tnych polach, polegaj±ca na
@@ -29,7 +30,6 @@ po³±czeniu ze sob± przeciwleg³ych boków.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_docdir}/%{name},%{_iconsdir}}
 
 %{__make} install \
