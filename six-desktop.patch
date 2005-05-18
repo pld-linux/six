@@ -5,8 +5,9 @@ diff -urN six-0.5.2/six/six.desktop six-0.5.2-desktop/six/six.desktop
  Type=Application
  DocPath=six/six.html
  Comment=A Hex playing program
+-Terminal=0
 +Comment[pl]=Gra na sześciokątnych polach
- Terminal=0
++Terminal=false
  MimeType=application/vnd.kde.six
 +Categories=Game;BoardGame;
 +Encoding=UTF-8
