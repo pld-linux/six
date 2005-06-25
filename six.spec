@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_desktopdir}/*
-%{_iconsdir}/*/*/*/*.png
+%{_iconsdir}/hicolor/*/*/*.png
 %{_docdir}/%{name}
 %{_datadir}/apps/%{name}
 %{_datadir}/mimelnk/application/*
