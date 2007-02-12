@@ -1,5 +1,5 @@
 Summary:	Interesting HexBoard game
-Summary(pl.UTF-8):   Ciekawa gra planszowa
+Summary(pl.UTF-8):	Ciekawa gra planszowa
 Name:		six
 Version:	0.5.2
 Release:	2
