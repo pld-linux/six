@@ -1,5 +1,5 @@
 Summary:	Interesting HexBoard game
-Summary(pl):	Ciekawa gra planszowa
+Summary(pl.UTF-8):   Ciekawa gra planszowa
 Name:		six
 Version:	0.5.2
 Release:	2
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Six is a Hex playing program for KDE. Hex is a connectivity game with
 simple rules and deep strategic complexity.
 
-%description -l pl
-Gra tocz±ca siê na planszy o sze¶ciok±tnych polach, polegaj±ca na
-po³±czeniu ze sob± przeciwleg³ych boków.
+%description -l pl.UTF-8
+Gra toczÄ…ca siÄ™ na planszy o szeÅ›ciokÄ…tnych polach, polegajÄ…ca na
+poÅ‚Ä…czeniu ze sobÄ… przeciwlegÅ‚ych bokÃ³w.
 
 %prep
 %setup -q
