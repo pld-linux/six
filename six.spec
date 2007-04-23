@@ -1,12 +1,12 @@
 Summary:	Interesting HexBoard game
 Summary(pl.UTF-8):	Ciekawa gra planszowa
 Name:		six
-Version:	0.5.2
-Release:	2
+Version:	0.5.3
+Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://six.retes.hu/download/%{name}-%{version}.tar.gz
-# Source0-md5:	129da56864fc2ca8c8c949dcc2239604
+# Source0-md5:	457028e8040f030b8f2cd6a65d04bab9
 Patch0:		%{name}-desktop.patch
 URL:		http://six.retes.hu/
 BuildRequires:	automake
