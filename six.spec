@@ -40,10 +40,12 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_docdir}/%{name},%{_icons
 mv $RPM_BUILD_ROOT%{_datadir}/applnk/Games/Board/* $RPM_BUILD_ROOT%{_desktopdir}
 mv $RPM_BUILD_ROOT%{_docdir}/HTML/en/%{name}/* $RPM_BUILD_ROOT%{_docdir}/%{name}
 
+%find_lang %{name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
